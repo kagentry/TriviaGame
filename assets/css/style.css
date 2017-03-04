@@ -1,0 +1,42 @@
+body {
+	background: url("../images/underwater_background.jpg") no-repeat;
+	background-size: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*special heading*/
+@font-face {
+	font-family: "ocean-font";
+	src: url("Water-Park.ttf");
+}
+
+/*general*/
+
+.container {
+	margin-top: 50px;
+	width: 100%;
+	max-width: 800px;
+	height: 100%;
+	min-height: 475px;
+	background-color: rgba(255,255,255,0.7);
+	overflow: scroll;
+}
+
+.ocean {
+	font-family: ocean-font;
+	font-size: 50px;
+	color: blue;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+button {
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
